@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import-normalize;
+
+@font-face {
+  font-family: "GRIFTER";
+  src: local("GRIFTER"),
+    url("./fonts/Grifter/grifterbold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TTFirsNeue";
+  src: local("TTFirsNeue"),
+    url("./fonts/TTFirsNeue/TTFirsNeue3.ttf") format("truetype");
+  font-weight: normal;
+}
